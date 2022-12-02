@@ -4,7 +4,7 @@
         docker-compose build
 To run the container and program use
             
-            docker run -i -t <image_name> {container_name}
+        docker run -i -t <image_name> {container_name}
 Using a container name is optional as Docker will automatically name the container if one isn't given
 The program will ask for the request type (GET, POST, or EXIT)
 
